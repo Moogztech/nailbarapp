@@ -1,0 +1,16 @@
+.slideSize {
+    max-width: 75rem;
+    height: 55rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border-radius: 40px;
+}
+
+.carousel .carousel-control-next-icon.changed {
+    background-image: url("../app/assets/img/arrow-right-solid.svg");
+}
+
+.carousel .carousel-control-prev-icon.changed {
+    background-image: url("../app/assets/img/arrow-left-solid.svg");
+}
+
