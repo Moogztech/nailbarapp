@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Nails from './components/Nails';
 import Slider from './components/slider';
 import slides from './components/sliderProps';
@@ -9,7 +9,7 @@ import NailColumns from './components/NailColumns';
 function App() {
     return (
         <div className="App">
-            <Header />
+            <Navbar />
             <Slider slides={slides} />
             <Nails />
             <NailColumns />
