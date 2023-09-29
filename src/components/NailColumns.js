@@ -4,15 +4,15 @@ import { LiaSeedlingSolid, LiaHeart, LiaAmericanSignLanguageInterpretingSolid, L
 function NailColumns() {
     const iconStyle = {
         fontSize: '48px',
-        marginRight: '10px',
+        marginRight: '30px',
     };
 
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <div className='row align-stretch'>
-                <div className='col-md-6 margin-bottom-xl'>
-                    <div className='display-flex margin-top-md'>
-                        <div style={iconStyle} className='margin-right-xl'>
+                <div className='col-md-6'>
+                    <div className='d-flex'>
+                        <div style={iconStyle}>
                             <LiaBrushSolid />
                         </div>
                         <div>
@@ -21,9 +21,9 @@ function NailColumns() {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-6 margin-bottom-xl'>
-                    <div className='display-flex margin-top-md'>
-                        <div style={iconStyle} className='margin-right-xl'>
+                <div className='col-md-6'>
+                    <div className='d-flex'>
+                        <div style={iconStyle}>
                             <LiaSeedlingSolid />
                         </div>
                         <div>
@@ -32,9 +32,11 @@ function NailColumns() {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-6 margin-bottom-xl'>
-                    <div className='display-flex margin-top-md'>
-                        <div style={iconStyle} className='margin-right-xl'>
+            </div>
+            <div className='row align-stretch mt-4'>
+                <div className='col-md-6'>
+                    <div className='d-flex'>
+                        <div style={iconStyle}>
                             <LiaHeart />
                         </div>
                         <div>
@@ -43,9 +45,9 @@ function NailColumns() {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-6 margin-bottom-xl'>
-                    <div className='display-flex margin-top-md'>
-                        <div style={iconStyle} className='margin-right-xl'>
+                <div className='col-md-6'>
+                    <div className='d-flex'>
+                        <div style={iconStyle}>
                             <LiaAmericanSignLanguageInterpretingSolid />
                         </div>
                         <div>
