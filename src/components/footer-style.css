@@ -1,0 +1,37 @@
+.footDesign {
+   background-color: rgb(255, 226, 226);
+   padding-top: 60px;
+   padding-bottom: 40px;
+}
+
+.footLogo {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.footLinks {
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.links {
+   padding-left: 2rem;
+   padding-right: 2rem;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.faIcons {
+   color: rgb(203, 120, 120);
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.brand {
+   display: flex;
+   justify-content: center;
+}

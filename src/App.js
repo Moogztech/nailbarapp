@@ -4,6 +4,7 @@ import Nails from './components/Nails';
 import Slider from './components/slider';
 import slides from './components/sliderProps';
 import NailColumns from './components/NailColumns';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Slider slides={slides} />
             <Nails />
             <NailColumns />
+            <Footer />
         </div>
     )
 }

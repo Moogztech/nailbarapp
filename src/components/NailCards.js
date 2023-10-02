@@ -12,7 +12,7 @@ const NailCards = (props) => {
                 <p className="card-text text-secondary">
                     {props.paragraph}
                 </p>
-                <a href="#" className="btn btn-outline-secondary">Book </a>
+                <a href="/" className="btn btn-outline-secondary">Book </a>
             </div>
         </div>
     )

@@ -8,7 +8,7 @@ class Nails extends Component {
     render() {
         return (
             <div className="container-fluid d-flex justify-content-center">
-                <div className="row">
+                <div className="row mb-5">
                     <div className="col-md-4">
                         <Card imgsrc={shortset} title="Short Set" paragraph="Short and simple, you can't ever go wrong with this."/>
                     </div>

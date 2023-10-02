@@ -7,6 +7,7 @@ function NailColumns() {
         marginRight: '30px',
     };
 
+
     return (
         <div className='container mt-5'>
             <div className='row align-stretch'>
