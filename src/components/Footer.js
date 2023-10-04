@@ -4,7 +4,7 @@ import heart from '../app/assets/img/heart.svg';
 
 const Footer = () => {
     return (
-        <footer className='footDesign'>
+        <footer className='footDesign container-fluid'>
             <Container className='footLogo'>
                 <Col className='brand'>
                 <img src={heart} alt='vicsnailbar logo' style={{ marginRight: '12px' }}/>

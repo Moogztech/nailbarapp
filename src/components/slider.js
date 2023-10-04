@@ -19,7 +19,7 @@ function Slider({ slides }) {
             {slides.map((slideProps) => (
                 <Carousel.Item key={slideProps.image}>
                     <img
-                        className="slideSize d-block w-100"
+                        className="slideSize d-block w-70"
                         src={slideProps.image}
                         alt="First slide"
                     />
