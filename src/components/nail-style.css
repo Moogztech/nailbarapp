@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body{
     background: radial-gradient(#fffafa, #fefefe, rgb(255, 244, 245));
 }
@@ -36,4 +38,8 @@ body{
 
 .card-img-top:hover{
     transform: scale(1.1);
+}
+
+.card-title {
+    font-family: 'Playfair Display';
 }

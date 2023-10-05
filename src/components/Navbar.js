@@ -5,7 +5,7 @@ import './navbar-style.css';
 const NavigationBar = () => {
 
     return (
-        <Navbar className='navbarColor container-fluid py-3'>
+        <Navbar className='navbarColor container-fluid sticky-nav py-3'>
             <Nav className='container'>
                 <NavbarBrand className='d-flex' href='/'>
                     <img src={heart} alt='vicsnailbar logo' style={{ marginRight: '12px' }}></img>
