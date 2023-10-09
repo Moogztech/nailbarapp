@@ -36,7 +36,7 @@
 
 .nav-link:hover {
   opacity: 1;
-  color: gray;
+  color: rgb(176, 99, 99);
   border-color: black;
 }
 
@@ -45,7 +45,7 @@
   height: 3px;
   content: "";
   position: absolute;
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(255, 255, 255);
 }
 
 .nav-link-ltr::before {

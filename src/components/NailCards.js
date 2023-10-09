@@ -3,16 +3,16 @@ import './nail-style.css';
 
 const NailCards = (props) => {
     return (
-        <div className="card text-center shadow">
-            <div className="overflow">
-                <img src={props.imgsrc} alt="heart" className="card-img-top" />
+        <div className="nail-card text-center shadow">
+            <div className="nail-overflow">
+                <img src={props.imgsrc} alt="heart" className="nail-card-img-top" />
             </div>
-            <div className="card-body text dark">
-                <h4 className="card-title">{props.title}</h4>
-                <p className="card-text text-secondary">
+            <div className="nail-card-body text dark">
+                <h4 className="nail-card-title">{props.title}</h4>
+                <p className="nail-card-text text-secondary">
                     {props.paragraph}
                 </p>
-                <a href="#" className="btn btn-outline-secondary">Book </a>
+                <a href="/" className="btn btn-outline-secondary">Book </a>
             </div>
         </div>
     )

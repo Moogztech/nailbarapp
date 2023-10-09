@@ -1,45 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-body{
+body {
     background: radial-gradient(#fffafa, #fefefe, rgb(255, 244, 245));
 }
 
-.card {
+.nail-card {
     margin: 3rem;
 }
 
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+.nail-card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
 }
 
-.card-body{
+.nail-card-body {
     height: 15rem;
     padding: 3rem 0 !important;
 }
 
-.card-text {
+.nail-card-text {
     font-size: .9rem;
     padding: 0.4rem 1.9rem;
 }
 
-.container-fluid .row{
+.nail-container-fluid .row {
     padding-top: 6rem;
 }
 
-.overflow{
+.nail-overflow {
     overflow: hidden;
 }
 
-.card-img-top {
+.nail-card-img-top {
     height: 16rem;
     transform: scale(1);
     transition: transform 0.5s ease;
 }
 
-.card-img-top:hover{
+.nail-card-img-top:hover {
     transform: scale(1.1);
 }
 
-.card-title {
+.nail-card-title {
     font-family: 'Playfair Display';
 }
