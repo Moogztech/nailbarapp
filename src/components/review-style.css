@@ -1,8 +1,13 @@
 .review-card {
     border: 1px;
     border-color: black;
+    margin-left: 2rem;
 }
     
 .review-body {
     padding: 40px;
+}   
+
+.review-card-title {
+    font-weight: bold;
 }

@@ -1,4 +1,4 @@
-import { Card, CardTitle, CardBody, CardText, CardGroup } from "reactstrap";
+import { Card, CardTitle, CardBody, CardText } from "reactstrap";
 import './review-style.css';
 import Row from 'react-bootstrap/Row';
 
@@ -8,7 +8,7 @@ const Reviews = () => {
         <Row xs={1} md={3} className="review-card">
             <Card className="review-card">
                 <CardBody className="review-body">
-                    <CardTitle>
+                    <CardTitle className="review-card-title">
                         Sarah V.
                     </CardTitle>
                     <CardText>
@@ -18,7 +18,7 @@ const Reviews = () => {
             </Card>
             <Card className="review-card">
                 <CardBody className="review-body">
-                    <CardTitle>
+                    <CardTitle className="review-card-title">
                         Sarah V.
                     </CardTitle>
                     <CardText>
@@ -28,7 +28,7 @@ const Reviews = () => {
             </Card>
             <Card className="review-card">
                 <CardBody className="review-body">
-                    <CardTitle>
+                    <CardTitle className="review-card-title">
                         Sarah V.
                     </CardTitle>
                     <CardText>

@@ -1,0 +1,33 @@
+.testimonial-slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider-button {
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.testimonial-cards {
+    display: flex;
+    overflow: hidden;
+}
+
+.testimonial-card {
+    width: 300px;
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.testimonial-text {
+    margin: 10px 0;
+}
+
+.testimonial-author {
+    font-style: italic;
+}
