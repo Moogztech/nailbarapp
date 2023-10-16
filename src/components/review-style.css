@@ -1,13 +1,26 @@
 .review-card {
     border: 1px;
     border-color: black;
-    margin-left: 2rem;
 }
     
 .review-body {
     padding: 40px;
+    margin-top: 9rem;
+    margin-bottom: 5rem;
 }   
 
 .review-card-title {
     font-weight: bold;
+    font-size: 25px;
+}
+
+.review-stars {
+    color: pink;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.review-text {
+    margin-top: 25px;
+    font-size: 18px;
 }

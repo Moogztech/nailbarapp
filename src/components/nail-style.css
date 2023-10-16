@@ -6,6 +6,8 @@ body {
 
 .nail-card {
     margin: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
 }
 
 .nail-card:hover {
