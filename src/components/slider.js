@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
+import {CarouselItem} from 'reactstrap';
 import React, { useState } from 'react';
 import './slider-style.css'
-import { Container } from 'reactstrap';
 
 function Slider({ slides }) {
     const [index, setIndex] = useState(0);
@@ -12,14 +12,13 @@ function Slider({ slides }) {
     };
 
     return (
-        <Container>
             <Carousel activeIndex={index}
                 onSelect={handleSelect}
                 nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}
                 prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
             >
                 {slides.map((slideProps) => (
-                    <Carousel.Item key={slideProps.image}>
+                    <CarouselItem key={slideProps}>
                         <div className='d-inline-flex slideContainer'>
                             <div>
                                 <div>
@@ -31,14 +30,13 @@ function Slider({ slides }) {
                                 </div>
                             </div>
                             <div className='textAdjust'>
-                                <h1>NAILS DONE RIGHT</h1>
-                                <p>"Every detail considered, reimagined + improved."</p>
+                                <h1 className='titleSize'>{slideProps.title}</h1>
+                                <p className='descriptionSize'>{slideProps.description}</p>
                             </div>
                         </div>
-                    </Carousel.Item>
+                    </CarouselItem>
                 ))}
             </Carousel>
-        </Container>
     );
 }
 

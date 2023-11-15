@@ -4,14 +4,25 @@
 
 .slideSize {
     height: 40rem;
+    width: 45rem;
     margin: 0 auto;
     margin-top: 5rem;
+    margin-left: 10rem;
     border-radius: 30px;
 }
 
 .textAdjust {
     margin-top: 5rem;
     padding-left: 2rem;
+    max-width: 30rem;
+}
+
+.titleSize {
+    font-size: 55px;
+}
+
+.descriptionSize {
+    font-size: 20px;
 }
 
 .carousel .carousel-control-next-icon.changed {
