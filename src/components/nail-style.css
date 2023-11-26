@@ -8,6 +8,7 @@ body {
     margin: 3rem;
     margin-top: 10rem;
     margin-bottom: 6rem;
+    border-radius: 20px;
 }
 
 .nail-card:hover {
@@ -33,7 +34,7 @@ body {
 }
 
 .nail-card-img-top {
-    height: 16rem;
+    height: 20rem;
     transform: scale(1);
     transition: transform 0.5s ease;
 }

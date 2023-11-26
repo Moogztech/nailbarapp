@@ -2,6 +2,15 @@
   background-color: rgb(255, 226, 226, 0.95);
 }
 
+.vicslogo {
+  margin: 0;
+  color: black;
+}
+
+.logoheart {
+  margin-right: 12px;
+}
+
 .sticky-nav {
   position: fixed;
   z-index: 9999;

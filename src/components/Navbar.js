@@ -1,6 +1,7 @@
 import { Navbar, Nav, NavItem, NavLink, Button, NavbarBrand } from 'reactstrap';
+import './navbar-style.css'
 import heart from '../app/assets/img/heart.svg';
-import './navbar-style.css';
+
 
 const NavigationBar = () => {
 
@@ -8,8 +9,8 @@ const NavigationBar = () => {
         <Navbar className='navbarColor container-fluid sticky-nav py-3'>
             <Nav className='container'>
                 <NavbarBrand className='d-flex' href='/'>
-                    <img src={heart} alt='vicsnailbar logo' style={{ marginRight: '12px' }}></img>
-                    <h5 style={{ margin: '0', color: 'black' }}>vicsnailbar</h5>
+                    <img src={heart} alt='vicsnailbar logo' className='logoheart'></img>
+                    <h5 className='vicslogo'>vicsnailbar</h5>
                 </NavbarBrand>
                 <Nav className='mx-auto'>
                     <NavItem>
