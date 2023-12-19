@@ -9,7 +9,7 @@ const NailCards = (props) => {
             </div>
             <div className="nail-card-body text dark">
                 <h4 className="nail-card-title">{props.title}</h4>
-                <p className="nail-card-text text-secondary">
+                <p className="nail-card-text">
                     {props.paragraph}
                 </p>
                 <a href="/" className="btn btn-outline-secondary">Book </a>

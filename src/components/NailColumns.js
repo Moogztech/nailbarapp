@@ -13,9 +13,9 @@ function NailColumns() {
             <div className='row align-stretch'>
                 <div className='col-md-6'>
                     <div className='d-flex'>
-                        <div style={iconStyle}>
-                            <LiaBrushSolid />
-                        </div>
+                            <div style={iconStyle}>
+                                <LiaBrushSolid />
+                            </div>
                         <div>
                             <h4>Exceptional Skill and Artistry</h4>
                             <p>As a seasoned nail technician, I've honed my craft over the years, ensuring that each nail treatment is a work of art.</p>

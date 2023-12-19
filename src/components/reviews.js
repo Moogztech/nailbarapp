@@ -1,11 +1,22 @@
 import { Grid } from '@mui/material';
 import './review-style.css';
-import { Card, CardTitle, CardText, Container } from "reactstrap";
+import { Card, CardTitle, CardText, Container, Carousel } from "reactstrap";
 
 const Reviews = () => {
 
     return (
         <Container>
+            <div className='review-headline'>
+            <h1>TESTIMONIALS</h1>
+            </div>
+            <div className='review-list-position'>
+                <ol className='review-list'>
+                    <li>All</li>
+                    <li>Service</li>
+                    <li>Designs</li>
+                    <li>Cleanliness</li>
+                </ol>
+            </div>
             <Grid container spacing={5}>
                 <Grid item xs={12} md={4}>
                     <Card className='review-body'>

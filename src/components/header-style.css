@@ -38,8 +38,8 @@
   position: relative;
   margin-left: 20px;
   margin-right: 20px;
+  text-decoration: none;
 }
-
 
 /* animation for navigation links */
 
@@ -47,6 +47,10 @@
   opacity: 1;
   color: rgb(176, 99, 99);
   border-color: black;
+}
+
+.nav-link:active {
+  color: rgb(255, 255, 255);
 }
 
 .nav-link::before {
@@ -65,3 +69,6 @@
 .nav-link-ltr:hover::before {
   width: 68%;
 }
+
+
+

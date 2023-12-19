@@ -1,9 +1,10 @@
-import { Navbar, Nav, NavItem, NavLink, Button, NavbarBrand } from 'reactstrap';
-import './navbar-style.css'
+import { Navbar, Nav, NavItem, NavbarBrand } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
+import './header-style.css'
 import heart from '../app/assets/img/heart.svg';
 
 
-const NavigationBar = () => {
+const Header = () => {
 
     return (
         <Navbar className='navbarColor container-fluid sticky-nav py-3'>
@@ -14,19 +15,20 @@ const NavigationBar = () => {
                 </NavbarBrand>
                 <Nav className='mx-auto'>
                     <NavItem>
-                        <NavLink className='navLinks nav-link nav-link-ltr' href='/'>Home</NavLink>
+                        <NavLink className='navLinks nav-link nav-link-ltr' to='/'>Home
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='navLinks nav-link nav-link-ltr' href='/'>Services</NavLink>
+                        <NavLink className='navLinks nav-link nav-link-ltr' to='/services'>Services</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='navLinks nav-link nav-link-ltr' href='/'>Staff</NavLink>
+                        <NavLink className='navLinks nav-link nav-link-ltr' to='/staff'>Staff</NavLink>
                     </NavItem>
                 </Nav>
-                <Button type='submit' className='bookButton'>Book</Button>
+                <NavLink type='submit' className='bookButton navLinks nav-link' to='/book'>Book</NavLink>
             </Nav>
         </Navbar>
     );
 };
 
-export default NavigationBar;
+export default Header;
