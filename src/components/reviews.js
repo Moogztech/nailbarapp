@@ -11,10 +11,10 @@ const Reviews = () => {
             </div>
             <div className='review-list-position'>
                 <ol className='review-list'>
-                    <li>All</li>
-                    <li>Service</li>
-                    <li>Designs</li>
-                    <li>Cleanliness</li>
+                    <li className='review-filter'>All</li>
+                    <li className='review-filter'>Service</li>
+                    <li className='review-filter'>Designs</li>
+                    <li className='review-filter'>Cleanliness</li>
                 </ol>
             </div>
             <Grid container spacing={5}>

@@ -7,7 +7,7 @@
 
 .review-headline {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .review-card-title {
@@ -37,7 +37,7 @@
     list-style: none;
 }
 
-li {
+.review-filter {
     color: #000;
     cursor: pointer;
     display: flex;
@@ -46,6 +46,17 @@ li {
     height: 40px;
     justify-content: center;
     padding: 0 24px;
+    margin: 0px 8px;
     position: relative;
     white-space: nowrap;
+    border: solid;
+    border-color: gray;
+    border-radius: 50px;
 }
+
+.review-filter:hover {
+    background-color: gray;
+    color: white;
+    transition: 300ms;
+}
+

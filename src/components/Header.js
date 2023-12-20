@@ -1,6 +1,6 @@
 import { Navbar, Nav, NavItem, NavbarBrand } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import './header-style.css'
+import './header-style.css';
 import heart from '../app/assets/img/heart.svg';
 
 
