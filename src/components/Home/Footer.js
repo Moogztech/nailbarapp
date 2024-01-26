@@ -1,6 +1,6 @@
 import { Container, Col } from 'reactstrap';
 import './footer-style.css';
-import heart from '../app/assets/img/heart.svg';
+import heart from '../../app/assets/img/heart.svg';
 
 const Footer = () => {
     return (

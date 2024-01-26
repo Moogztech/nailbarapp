@@ -1,8 +1,8 @@
 import { Component } from "react";
 import Card from './NailCards';
-import longset from '../app/assets/img/longset.jpg';
-import shortset from '../app/assets/img/shortset.jpg'
-import mediumnails from '../app/assets/img/mediumnails.jpeg';
+import longset from '../../app/assets/img/longset.jpg';
+import shortset from '../../app/assets/img/shortset.jpg'
+import mediumnails from '../../app/assets/img/mediumnails.jpeg';
 
 class Nails extends Component {
     render() {

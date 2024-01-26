@@ -1,24 +1,19 @@
 import React from 'react';
-import nailartist from "../app/assets/img/nail-artist.png";
+import nailartist from "../../app/assets/img/nail-artist.png";
 import './nailcolumn-style.css';
-import sanitary from "../app/assets/img/sanitary.png";
-import nailpolish from "../app/assets/img/nail-polish.png"
-import nailsdesigns from "../app/assets/img/naildesigns.png"
+import sanitary from "../../app/assets/img/sanitary.png";
+import nailpolish from "../../app/assets/img/nail-polish.png"
+import nailsdesigns from "../../app/assets/img/naildesigns.png"
 
 function NailColumns() {
-    const iconStyle = {
-        fontSize: '48px',
-        marginRight: '30px',
-    };
-
 
     return (
         <div className='container mt-5'>
             <div className='row align-stretch'>
                 <div className='col-md-6'>
                     <div className='d-flex'>
-                            <img className='nailcolumn-pics' src={nailartist}>
-                            </img>
+                        <img className='nailcolumn-pics' src={nailartist} alt="nails">
+                        </img>
                         <div>
                             <h4>Exceptional Skill and Artistry</h4>
                             <p>As a seasoned nail technician, I've honed my craft over the years, ensuring that each nail treatment is a work of art.</p>
@@ -27,7 +22,7 @@ function NailColumns() {
                 </div>
                 <div className='col-md-6'>
                     <div className='d-flex'>
-                        <img className='nailcolumn-pics' src={sanitary}>
+                        <img className='nailcolumn-pics' src={sanitary} alt="nails">
                         </img>
                         <div>
                             <h4>Hygiene and Safety Priority</h4>
@@ -39,7 +34,7 @@ function NailColumns() {
             <div className='row align-stretch mt-4'>
                 <div className='col-md-6'>
                     <div className='d-flex'>
-                        <img className='nailcolumn-pics' src={nailpolish}>
+                        <img className='nailcolumn-pics' src={nailpolish} alt="nails">
                         </img>
                         <div>
                             <h4>Personalized Service</h4>
@@ -49,7 +44,7 @@ function NailColumns() {
                 </div>
                 <div className='col-md-6'>
                     <div className='d-flex'>
-                        <img className='nailcolumn-pics' src={nailsdesigns}>
+                        <img className='nailcolumn-pics' src={nailsdesigns} alt="nails">
                         </img>
                         <div>
                             <h4>Continual Learning and Innovation</h4>

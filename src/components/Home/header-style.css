@@ -2,6 +2,11 @@
   background-color: rgb(255, 226, 226, 0.95);
 }
 
+.centernav {
+  justify-content: center;
+  width: 100%;
+}
+
 .vicslogo {
   margin: 0;
   color: black;
@@ -17,13 +22,10 @@
 }
 
 .bookButton {
-  margin-right: 20px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding: 10px 50px 10px 50px;
   border-radius: 15px;
   color: black;
   background-color: pink;
-  border: none;
   font-weight: bold;
 }
 
@@ -39,6 +41,7 @@
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none;
+  text-align: center;
 }
 
 /* animation for navigation links */
@@ -52,23 +55,3 @@
 .nav-link:active {
   color: rgb(255, 255, 255);
 }
-
-.nav-link::before {
-  transition: 300ms;
-  height: 3px;
-  content: "";
-  position: absolute;
-  background-color: rgb(255, 255, 255);
-}
-
-.nav-link-ltr::before {
-  width: 0%;
-  bottom: 2px;
-}
-
-.nav-link-ltr:hover::before {
-  width: 68%;
-}
-
-
-
