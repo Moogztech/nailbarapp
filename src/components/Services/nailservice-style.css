@@ -1,9 +1,5 @@
 .servicebox {
-    display: inline-block;
-    flex-direction: column;
-    margin-left: 15rem;
-    margin-top: 5rem;
-    width: 25rem;
+    margin-bottom: 10rem;
 }
 
 .serviceimage {
@@ -11,6 +7,7 @@
     height: 20rem;
     border-radius: 50%;
     margin-bottom: 2rem;
+    align-items: center;
 }
 
 .serviceboxtitle {
@@ -21,11 +18,31 @@
 .servicetitle {
     display: inline-flex;
     flex-direction: column;
-    margin-top: 10rem;
-    margin-left: 15rem;
-    margin-right: 20rem;
+    margin-top: 8rem;
+    width: 60%;
+    margin-bottom: 10rem;
+    margin-left: 5rem;
 }
 
 .servicetitlefont {
     font-size: 55px;
+}
+
+.bookserviceButton {
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+    color: black;
+    background-color: pink;
+    font-weight: bold;
+    border: none;
+  }
+  
+.bookserviceButton:hover {
+    background-color: rgb(176, 99, 99);
+    transition-duration: 200ms;
+    color: white;
+}
+
+.serviceSpacing {
+    margin-top: 1rem;
 }

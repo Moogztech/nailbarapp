@@ -19,7 +19,7 @@ const Header = () => {
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto centernav' navbar>
                     <NavItem>
-                        <NavLink className='navLinks nav-link' to='/Home'>Home</NavLink>
+                        <NavLink className='navLinks nav-link' to='/'>Home</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='navLinks nav-link' to='/services'>Services</NavLink>
